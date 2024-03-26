@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li{
+    text-decoration: none;
+}
+
+
+
+p,li{
+    font-size: 0.67rem;
+    font-family: "Outfit", "serif";;
+    font-weight: 400;
+}
+
+body{
+    font-family: "Outfit", "Young Serif", "serif";
+    background-color: hsl(30, 54%, 90%);
+}
+
+#container{
+    background-color: white;
+    margin: 4rem auto;
+    width: 31rem;
+    height: 74rem;
+    border-radius: 0.8rem;
+}
+.img-container{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.img-container img{
+    width: 28rem;
+    border-radius: 0.5rem;
+}
+
+.descript{
+    padding: 1rem 1rem;
+}
+
+.descript h2{
+    font-family: "Young Serif", "serif";
+    padding: 0.5rem 0.1rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem 1rem;
+    margin:0.8rem;
+}
+
+.preparation h4{
+    color:  hsl(332, 51%, 32%);
+}
+
+.preparation li{
+    margin: 0.6rem;
+}
+
+.ingredients{
+    font-family:"Young Serif", "serif";
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    margin-left:0.5rem;
+    padding-bottom: 0.8rem;
+}
+.ingredients ul{
+    margin-left: 0.5rem;
+}
+.ingredients li{
+    list-style-type:square;
+    color: hsl(30, 10%, 34%);
+    margin:0.5rem;
+}
+
+.instructions{
+    padding: 1rem;
+}
+.instructions h3{
+    font-family: "Young Serif", "serif";
+    color:hsl(30, 10%, 34%);
+}
+.instructions ol{
+    padding: 0.8rem;
+}
+
+.instructions li{
+    padding: 0.3rem;
+    color:hsl(33, 8%, 44%) ;
+    font-weight: 600;
+}    
+
+.instructions ul li span {
+font-weight: 400;
+margin-left: 1rem;
+}
+
+.nutritions{
+    padding: 1rem;
+}
+
+.nutritions h3{
+    font-family: "Young Serif", "serif";
+    color:hsl(30, 10%, 34%);
+}
+
+.nutritions p{
+    padding: 0.3rem;
+}
+
+.nutritions li{
+    display: inline;
+}
+
+.nutritions span{
+    margin-left: 6rem;
+}
+
+.gains p{
+padding: 0.8rem;
+}
+
+ .shift{
+ padding-left: 0.5rem;
+}
+
+.shift1{
+    padding-left: 0.8rem;
+}
+
+.shift2{
+    padding-left: 1.8rem;
+}
+
+.gains p span{
+    font-weight: 800;
+    color:hsl(33, 18%, 22%) ;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:375px){
+
+  
+    #container{
+    width: 19.5rem;
+    height: 80.5rem;
+    margin: 2rem;
+    }
+
+    .img-container img{
+        width: 17.5rem;
+    }
+
+    .img-container{
+        padding-left: 1rem;
+    }
+}
